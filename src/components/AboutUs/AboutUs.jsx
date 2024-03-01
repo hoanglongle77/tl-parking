@@ -5,7 +5,7 @@ import {
   companyDescription,
   aboutUsImages,
 } from "@/libs/AboutUsData";
-import styles from "./AboutUs.module.css";
+import styles from "./aboutUs.module.css";
 
 const AboutUs = () => {
   return (
