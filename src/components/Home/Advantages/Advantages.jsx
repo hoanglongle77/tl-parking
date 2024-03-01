@@ -16,7 +16,7 @@ const Advantages = () => {
 
 const AdvantageCard = () => {
   return (
-    <div className={`${styles.adCard} card`}>
+    <div className={`${styles.adCard} card text-bg-warning`}>
       <h1 className={`card-img-top text-center`}>Image</h1>
       <div className={`card-body`}>
         <h5 className={`card-title`}>Card title</h5>
@@ -25,7 +25,7 @@ const AdvantageCard = () => {
           to additional content. This content is a little bit longer.
         </p>
         <Link className={"btn btn-danger"} href="*">
-          <i class="bi bi-bag-plus fs-4 me-2"></i>
+          <i className="bi bi-bag-plus fs-4 me-2"></i>
           Tìm hiểu thêm
         </Link>
       </div>

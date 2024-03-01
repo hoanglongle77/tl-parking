@@ -21,7 +21,7 @@ const OurCompany = () => {
 
 const SectionRight = () => {
   return (
-    <div className={`container`}>
+    <div className={`container my-4`}>
       <h1 className={`text-center`}>Hình ảnh</h1>
     </div>
   );
@@ -45,32 +45,32 @@ const SectionLeft = () => {
         <div className={`row`}>
           <div className={`px-0 px-lg-2 col-lg-6`}>
             <h3 className={`text-danger`}>
-              <i class="bi bi-check-circle me-2"></i>
+              <i className="bi bi-check-circle me-2"></i>
               Công nghệ tiên tiến
             </h3>
           </div>
           <div className={`px-0 px-lg-2 col-lg-6`}>
             <h3 className={`text-danger`}>
-              <i class="bi bi-check-circle me-2"></i>
+              <i className="bi bi-check-circle me-2"></i>
               Gia công sản xuất chính xác
             </h3>
           </div>
           <div className={`px-0 px-lg-2 col-lg-6`}>
             <h3 className={`text-danger`}>
-              <i class="bi bi-check-circle me-2"></i>
+              <i className="bi bi-check-circle me-2"></i>
               Hỗ trợ dịch vụ mạnh mẽ
             </h3>
           </div>
           <div className={`px-0 px-lg-2 col-lg-6`}>
             <h3 className={`text-danger`}>
-              <i class="bi bi-check-circle me-2"></i>
+              <i className="bi bi-check-circle me-2"></i>
               Định hướng khách hàng
             </h3>
           </div>
         </div>
       </div>
       <Link href="/gioi-thieu" className={`btn btn-danger fs-5`}>
-        <i class="bi bi-arrow-right-square me-2"></i>Chi tiết
+        <i className="bi bi-arrow-right-square me-2"></i>Chi tiết
       </Link>
     </div>
   );
