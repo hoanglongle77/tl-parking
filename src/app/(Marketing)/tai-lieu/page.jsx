@@ -1,15 +1,14 @@
-import AboutUs from "@/components/AboutUs/AboutUs";
 import React from "react";
 
 export const metadata = {
-  title: "Giới thiệu",
+  title: "Tài liệu",
   description: "Smart Parking",
 };
 
 const page = () => {
   return (
     <div className={`container my-5`}>
-      <AboutUs />
+      <h1 className={`text-center text-uppercase`}>Tài liệu</h1>
     </div>
   );
 };

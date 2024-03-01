@@ -1,13 +1,13 @@
 //2. Route data for footer
 export const paragraph =
-  "You might remember the Lenovo computer commercials in which a youth reports this exciting news to his friends.";
+  "Chúng tôi phát triển, thiết kế và sản xuất thiết bị đỗ xe cơ khí với công nghệ tiên tiến của riêng mình và luôn duy trì chất lượng cao.";
 
-export const store = "Store";
+export const store = "Truy cập nhanh";
 export const storeLinks = [
-  { label: "About Us", url: "/about" },
-  { label: "Find Store", url: "/find-store" },
-  { label: "Categories", url: "/categories" },
-  { label: "Blogs", url: "/blogs" },
+  { label: "Về chúng tôi", url: "/gioi-thieu" },
+  { label: "Địa chỉ", url: "/lien-he" },
+  { label: "Sản phẩm", url: "/san-pham" },
+  { label: "Tin tức", url: "/tin-tuc" },
 ];
 
 export const information = "Information";
@@ -34,4 +34,5 @@ export const usefulLinks = [
   { label: "Sitemap", url: "/blogs" },
 ];
 
-export const footerBottomText = "© 2024 Hoang Long Le. All rights reserved.";
+export const footerBottomText =
+  "© 2024 Truong Long Parking. All rights reserved.";

@@ -6,7 +6,7 @@ const MarketingLayout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className="my-3 min-vh-100">{children}</div>
+      <div className="min-vh-100">{children}</div>
       <Footer />
     </>
   );

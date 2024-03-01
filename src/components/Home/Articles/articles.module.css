@@ -1,0 +1,8 @@
+.articleCard {
+    min-height: 250px;
+    transition: transform 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease;
+}
+
+.articleCard:hover {
+    transform: translateY(-15px);
+}

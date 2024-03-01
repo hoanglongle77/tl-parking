@@ -1,18 +1,14 @@
 export const links = [
+  { text: "Trang chủ", url: "/" },
   { text: "Giới thiệu", url: "/gioi-thieu" },
-  { text: "Hỗ trợ kĩ thuật", url: "/ho-tro-ki-thuat" },
-  { text: "Video", url: "/videos" },
+  { text: "Tài liệu", url: "/tai-lieu" },
   { text: "Liên hệ", url: "/lien-he" },
+  { text: "Tin tức", url: "/tin-tuc" },
 ];
 
 export const sanpham = [
-  { label: "Action", url: "#" },
-  { label: "Another action", url: "#" },
-  { label: "Something else here", url: "#" },
-];
-
-export const tintuc = [
-  { label: "Action", url: "#" },
-  { label: "Another action", url: "#" },
-  { label: "Something else here", url: "#" },
+  { label: "Danh mục 1", url: "#" },
+  { label: "Danh mục 2", url: "#" },
+  { label: "Danh mục 3", url: "#" },
+  { label: "Danh mục 4", url: "#" },
 ];
