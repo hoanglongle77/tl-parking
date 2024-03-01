@@ -1,0 +1,42 @@
+/* CSS for Footer component */
+.footerContainer {
+    background-color: black;
+}
+
+.footerMain {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footerHr {}
+
+.footerBottom {}
+
+/* CSS for FooterBrand component */
+.title {}
+
+.logo {}
+
+.icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.listMenu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listMenuItem {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.listMenuItem:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/* .footerBottom {} */
