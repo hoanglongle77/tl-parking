@@ -7,7 +7,7 @@ export const storeLinks = [
   { label: "Về chúng tôi", url: "/gioi-thieu" },
   { label: "Địa chỉ", url: "/lien-he" },
   { label: "Sản phẩm", url: "/san-pham" },
-  { label: "Tin tức", url: "/tin-tuc" },
+  { label: "Dự án", url: "/du-an" },
 ];
 
 export const information = "Information";

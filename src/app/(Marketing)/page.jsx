@@ -3,8 +3,7 @@ import Articles from "@/components/Home/Articles/Articles";
 import Banner from "@/components/Home/Banner/Banner";
 import ImageSlider from "@/components/Home/Carousel/ImageSlider";
 import OurCompany from "@/components/Home/OurCompany/OurCompany";
-import Loading from "@/components/Loading/Loading";
-import React, { Suspense } from "react";
+import React from "react";
 
 export const metadata = {
   title: "Trang chủ",
@@ -14,7 +13,7 @@ export const metadata = {
 const Home = () => {
   return (
     <div className={``}>
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       {/* Products Component */}
       <Advantages />
       <OurCompany />

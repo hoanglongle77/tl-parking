@@ -1,9 +1,9 @@
-.contactCard {
+.projectCard {
     min-height: 250px;
     transition: transform 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease;
 }
 
-.contactCard:hover {
+.projectCard:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.1), 0 15px 25px rgba(0, 0, 0, 0.1);
 }

@@ -8,7 +8,7 @@ export const metadata = {
   description: "Smart Parking",
 };
 
-const page = () => {
+const ContactPage = () => {
   return (
     <div className={`container my-5`}>
       <h1 className={`text-center text-uppercase`}>Liên hệ với chúng tôi</h1>
@@ -27,4 +27,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ContactPage;

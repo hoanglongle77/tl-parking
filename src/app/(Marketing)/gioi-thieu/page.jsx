@@ -6,7 +6,7 @@ export const metadata = {
   description: "Smart Parking",
 };
 
-const page = () => {
+const AboutUsPage = () => {
   return (
     <div className={`container my-5`}>
       <AboutUs />
@@ -14,4 +14,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AboutUsPage;

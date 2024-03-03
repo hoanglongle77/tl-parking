@@ -1,9 +1,15 @@
-.contactCard {
-    min-height: 250px;
+.productCard {
+    min-height: 300px;
     transition: transform 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease;
 }
 
-.contactCard:hover {
+.productCard:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.1), 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.productTitle {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }

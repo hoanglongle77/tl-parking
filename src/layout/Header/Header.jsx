@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { links, sanpham } from "@/libs/HeaderData";
+import { links } from "@/libs/HeaderData";
 
 const Header = () => {
   return (
@@ -26,7 +26,6 @@ const Header = () => {
         >
           <ul className="navbar-nav mb-2 mb-lg-0 ">
             <LinkGroup links={links} />
-            <DropDownLink title="Sản phẩm" items={sanpham} />
           </ul>
         </div>
       </div>
@@ -58,6 +57,7 @@ const DropDownLink = ({ title, items }) => {
     </li>
   );
 };
+
 const LinkGroup = ({ links }) => {
   return (
     <>

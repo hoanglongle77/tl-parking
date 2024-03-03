@@ -5,7 +5,7 @@ export const metadata = {
   description: "Smart Parking",
 };
 
-const page = () => {
+const DocumentsPage = () => {
   return (
     <div className={`container my-5`}>
       <h1 className={`text-center text-uppercase`}>Tài liệu</h1>
@@ -13,4 +13,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default DocumentsPage;
