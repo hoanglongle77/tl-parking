@@ -17,10 +17,10 @@ const ContactPage = () => {
         <Contacts />
         <div className={`container`}>
           <div className={`row`}>
-            <div className={`col-lg-4`}>
+            <div className={`col-lg-5`}>
               <ContactForm />
             </div>
-            <div className={`col-lg-8`}>
+            <div className={`col-lg-7`}>
               <Maps />
             </div>
           </div>

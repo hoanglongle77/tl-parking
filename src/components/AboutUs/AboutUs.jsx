@@ -14,7 +14,10 @@ const AboutUs = () => {
       <div className={`container`}>
         <div className={`row`}>
           {aboutUsImages.map((image) => (
-            <div key={image.id} className={`col-lg-4`}>
+            <div
+              key={image.id}
+              className={`col-lg-4 d-flex justify-content-center`}
+            >
               <AboutImage src={image.src} alt={image.alt} />
             </div>
           ))}
@@ -35,9 +38,13 @@ const AboutInfo = ({ title, paragraph }) => {
 
 const AboutImage = ({ src, alt }) => {
   return (
-    <div>
-      <Image src={src} alt={alt} width={500} height={300} />
-    </div>
+    <Image
+      src={src}
+      alt={alt}
+      width={350}
+      height={350}
+      className={`img-fluid my-3`}
+    />
   );
 };
 

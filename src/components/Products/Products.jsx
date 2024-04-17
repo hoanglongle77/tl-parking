@@ -14,13 +14,13 @@ const Products = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [loadProducts]);
 
   return (
     <div className={`container my-4 my-lg-5`}>
       <div className={`row`}>
         {products.map((product) => (
-          <div key={product.id} className={`col-lg-4`}>
+          <div key={product.id} className={`col-sm-4 col-lg-4`}>
             <ProductCard product={product} />
           </div>
         ))}

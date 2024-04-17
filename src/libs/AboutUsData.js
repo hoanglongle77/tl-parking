@@ -10,32 +10,32 @@ Với cam kết không ngừng nâng cao chất lượng sản phẩm và dịch
 export const aboutUsImages = [
   {
     id: 1,
-    src: "/images/about-1.webp",
+    src: "/image/aboutUs/service.webp",
     alt: "About Image 1",
   },
   {
     id: 2,
-    src: "/images/about2.jpg",
+    src: "/image/aboutUs/service.webp",
     alt: "About Image 2",
   },
   {
     id: 3,
-    src: "/images/about2.jpg",
+    src: "/image/aboutUs/service.webp",
     alt: "About Image 2",
   },
   {
     id: 4,
-    src: "/images/about2.jpg",
+    src: "/image/aboutUs/service.webp",
     alt: "About Image 2",
   },
   {
     id: 5,
-    src: "/images/about2.jpg",
+    src: "/image/aboutUs/service.webp",
     alt: "About Image 2",
   },
   {
     id: 6,
-    src: "/images/about2.jpg",
+    src: "/image/aboutUs/service.webp",
     alt: "About Image 2",
   },
 ];

@@ -7,7 +7,7 @@ const Contacts = () => {
     <div className={`container py-3`}>
       <div className="row">
         {contactData.map((contact) => (
-          <div key={contact.id} className={`col-lg-3`}>
+          <div key={contact.id} className={`col-sm-4 col-lg-3`}>
             <ContactCard
               icon={contact.icon}
               title={contact.title}

@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./advantages.module.css";
+import Image from "next/image";
+import { AdvantagesData } from "@/libs/HomeData";
 
 const Advantages = () => {
   return (
@@ -13,31 +15,34 @@ const Advantages = () => {
       </div>
       <div className={`container`}>
         <div className={`row`}>
-          <div className={`col-lg-4`}>
-            <AdvantageCard />
-          </div>
-          <div className={`col-lg-4`}>
-            <AdvantageCard />
-          </div>
-          <div className={`col-lg-4`}>
-            <AdvantageCard />
-          </div>
+          {AdvantagesData.map((advantage) => (
+            <div key={advantage.id} className={`col-lg-4`}>
+              <AdvantageCard
+                title={advantage.title}
+                content={advantage.content}
+                image={advantage.image}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-const AdvantageCard = () => {
+const AdvantageCard = ({ title, content, image }) => {
   return (
     <div className={`${styles.adCard} card text-bg-warning my-3`}>
-      <h1 className={`card-img-top text-center`}>Image</h1>
+      <Image
+        src={image}
+        width={200}
+        height={200}
+        alt={title}
+        className={`card-img-top img-fluid p-3`}
+      />
       <div className={`card-body`}>
-        <h5 className={`card-title`}>Card title</h5>
-        <p className={`card-text`}>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
+        <h5 className={`card-title`}>{title}</h5>
+        <p className={`card-text`}>{content}</p>
         <Link className={"btn btn-danger"} href="*">
           <i className="bi bi-bag-plus fs-4 me-2"></i>
           Tìm hiểu thêm

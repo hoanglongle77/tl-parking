@@ -10,28 +10,12 @@ export const storeLinks = [
   { label: "Dự án", url: "/du-an" },
 ];
 
-export const information = "Information";
+export const information = "Sản phẩm";
 export const informationLinks = [
-  { label: "Help Center", url: "/help-center" },
-  { label: "Money refund", url: "/money-refund" },
-  { label: "Shipping info", url: "/shipping-info" },
-  { label: "Refunds", url: "/refunds" },
-];
-
-export const support = "Support";
-export const supportLinks = [
-  { label: "Help center", url: "/about" },
-  { label: "Documents", url: "/find-store" },
-  { label: "Account restore", url: "/categories" },
-  { label: "My Orders", url: "/blogs" },
-];
-
-export const useful = "Useful links";
-export const usefulLinks = [
-  { label: "Careers", url: "/about" },
-  { label: "Mission vision", url: "/find-store" },
-  { label: "Management", url: "/categories" },
-  { label: "Sitemap", url: "/blogs" },
+  { label: "Smart Parking", url: "/san-pham" },
+  { label: "Puzzle Parking", url: "/san-pham" },
+  { label: "Lift Parking", url: "/san-pham" },
+  { label: "Smart Parking", url: "/san-pham" },
 ];
 
 export const footerBottomText =

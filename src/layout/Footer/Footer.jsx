@@ -22,20 +22,17 @@ const Footer = () => {
         <div className={`container`}>
           <div className={`${styles.footerMain}`}>
             <div className={`row`}>
-              <div className={`col col-12 col-sm-12 col-lg-4`}>
+              <div className={`col-12 col-sm-12 col-lg-4`}>
                 <FooterBrand paragraph={paragraph} />
               </div>
-              <div className={`col col-6 col-sm-4 col-lg-2`}>
+              <div className={`col-6 col-sm-4 col-lg-2`}>
                 <FooterItems title={store} links={storeLinks} />
               </div>
-              <div className={`col col-6 col-sm-4 col-lg-2`}>
+              <div className={`col-6 col-sm-4 col-lg-2`}>
                 <FooterItems title={information} links={informationLinks} />
               </div>
-              <div className={`col col-6 col-sm-4 col-lg-2`}>
-                <FooterItems title={support} links={supportLinks} />
-              </div>
-              <div className={`col col-6 col-sm-4 col-lg-2`}>
-                <FooterItems title={useful} links={usefulLinks} />
+              <div className={`col-12 col-sm-4 col-lg-4`}>
+                <h1>Form</h1>
               </div>
             </div>
           </div>

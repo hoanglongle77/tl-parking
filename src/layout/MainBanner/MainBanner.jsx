@@ -11,6 +11,7 @@ const MainBanner = ({ title }) => {
         height={517}
         alt="Main Banner"
         className={`${styles.bannerImage} img-fluid`}
+        priority
       />
       <div className={`${styles.title} text-center`}>
         <h1
