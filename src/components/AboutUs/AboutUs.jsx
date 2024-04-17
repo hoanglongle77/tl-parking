@@ -9,7 +9,7 @@ import styles from "./aboutUs.module.css";
 
 const AboutUs = () => {
   return (
-    <>
+    <div className={`container my-5`}>
       <AboutInfo title={aboutTitle} paragraph={companyDescription} />
       <div className={`container`}>
         <div className={`row`}>
@@ -20,7 +20,7 @@ const AboutUs = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,8 +1,7 @@
 "use client";
 import { DataContext } from "@/context/DataContext";
 import React, { useContext, useEffect } from "react";
-import ProductCard from "./ProductCard";
-import Image from "next/image";
+import ProductCard from "./ProductCard/ProductCard";
 
 const Products = () => {
   const { products, loadProducts } = useContext(DataContext);
@@ -18,7 +17,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div className={`container`}>
+    <div className={`container my-4 my-lg-5`}>
       <div className={`row`}>
         {products.map((product) => (
           <div key={product.id} className={`col-lg-4`}>

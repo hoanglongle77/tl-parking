@@ -1,4 +1,5 @@
 import Products from "@/components/Products/Products";
+import MainBanner from "@/layout/MainBanner/MainBanner";
 import React, { Suspense } from "react";
 
 export const metadata = {
@@ -8,18 +9,10 @@ export const metadata = {
 
 const ProductsPage = () => {
   return (
-    <div className={`container my-4`}>
-      <div className={`row`}>
-        <div className={`col-lg-3`}>
-          <h1>Sidebar</h1>
-        </div>
-        <div className={`col-lg-9`}>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Products />
-          </Suspense>
-        </div>
-      </div>
-    </div>
+    <>
+      <MainBanner title={metadata.title} />
+      <Products />
+    </>
   );
 };
 

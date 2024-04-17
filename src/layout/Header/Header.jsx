@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <Link className="navbar-brand" href="/">
-          Logo
+        <Link className="navbar-brand fw-bold" href="/">
+          TL-Parking
         </Link>
         <button
           className="navbar-toggler"

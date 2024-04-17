@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className={`container`}>
+    <div className={`container my-4 my-lg-5`}>
       <div className={`row`}>
         <div className={`col-lg-4`}>
           <ProjectCard />

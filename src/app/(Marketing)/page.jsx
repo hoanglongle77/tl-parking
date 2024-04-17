@@ -12,7 +12,7 @@ export const metadata = {
 
 const Home = () => {
   return (
-    <div className={``}>
+    <>
       {/* <ImageSlider /> */}
       {/* Products Component */}
       <Advantages />
@@ -20,7 +20,7 @@ const Home = () => {
       {/* Certificates Component */}
       <Articles />
       <Banner />
-    </div>
+    </>
   );
 };
 

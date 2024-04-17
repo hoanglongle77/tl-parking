@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs/AboutUs";
+import MainBanner from "@/layout/MainBanner/MainBanner";
 import React from "react";
 
 export const metadata = {
@@ -8,9 +9,10 @@ export const metadata = {
 
 const AboutUsPage = () => {
   return (
-    <div className={`container my-5`}>
+    <>
+      <MainBanner title={metadata.title} />
       <AboutUs />
-    </div>
+    </>
   );
 };
 

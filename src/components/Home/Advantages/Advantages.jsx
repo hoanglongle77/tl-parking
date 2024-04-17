@@ -4,11 +4,25 @@ import styles from "./advantages.module.css";
 
 const Advantages = () => {
   return (
-    <div className={`container`}>
-      <div className={`card-group`}>
-        <AdvantageCard />
-        <AdvantageCard />
-        <AdvantageCard />
+    <div className={`${styles.advantagesContainer} my-5`}>
+      <div className={`container`}>
+        <p className="text-center fs-3 text-danger fw-bold pt-5">Lợi ích</p>
+        <h2 className={`text-center text-white pb-4`}>
+          Chúng tôi ở đây để cung cấp cho bạn Với giải pháp hoàn thiện nhất
+        </h2>
+      </div>
+      <div className={`container`}>
+        <div className={`row`}>
+          <div className={`col-lg-4`}>
+            <AdvantageCard />
+          </div>
+          <div className={`col-lg-4`}>
+            <AdvantageCard />
+          </div>
+          <div className={`col-lg-4`}>
+            <AdvantageCard />
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -16,7 +30,7 @@ const Advantages = () => {
 
 const AdvantageCard = () => {
   return (
-    <div className={`${styles.adCard} card text-bg-warning`}>
+    <div className={`${styles.adCard} card text-bg-warning my-3`}>
       <h1 className={`card-img-top text-center`}>Image</h1>
       <div className={`card-body`}>
         <h5 className={`card-title`}>Card title</h5>

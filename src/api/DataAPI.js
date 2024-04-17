@@ -7,46 +7,16 @@ import {
   doc,
   getDoc,
 } from "firebase/firestore";
-import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAPWx7Ly2AEh7uM95AmzOha_AVjQ0UbvHY",
-  authDomain: "tl-parking.firebaseapp.com",
-  projectId: "tl-parking",
-  storageBucket: "tl-parking.appspot.com",
-  messagingSenderId: "801069814019",
-  appId: "1:801069814019:web:9a5aa799a81106f191d936",
-  measurementId: "G-TNW6W7H7Q8",
-};
+import { firebaseConfig } from "./Firebase";
 
 //1. Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
-const auth = getAuth(app);
 
 //2. Declare all collections;
 const introduction_Collection = collection(database, "gioi-thieu");
 const products_Collection = collection(database, "san-pham");
 const projects_Collection = collection(database, "tin-tuc");
-
-const loginAdmin = async (email, password) => {
-  try {
-    await signInWithEmailAndPassword(auth, email, password);
-    return true; // Return true if login is successful
-  } catch (error) {
-    console.error("Error logging in:", error);
-    throw error; // Throw an error if login fails
-  }
-};
-
-const logoutAdmin = async () => {
-  try {
-    await signOut(auth);
-  } catch (error) {
-    console.error("Error logging out:", error);
-    throw error;
-  }
-};
 
 const getItemById = async (collectionName, documentID) => {
   try {
@@ -114,4 +84,4 @@ const getProjects = async () => {
   }
 };
 
-export { loginAdmin, logoutAdmin, getProducts, getProjects, getItemById };
+export { getProducts, getProjects, getItemById };

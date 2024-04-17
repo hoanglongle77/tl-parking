@@ -1,8 +1,12 @@
 .adCard {
-    min-height: 350px;
+    min-height: 400px;
     transition: transform 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease;
 }
 
 .adCard:hover {
     transform: translateY(-15px);
+}
+
+.advantagesContainer {
+    background-image: url("/image/ADVANTAGE.webp");
 }

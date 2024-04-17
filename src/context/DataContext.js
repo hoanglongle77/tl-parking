@@ -1,7 +1,7 @@
 // ProductContext.js
 "use client";
 import React, { createContext, useState, cache } from "react";
-import { getProducts, getItemById, getProjects } from "@/api/FirebaseApi";
+import { getProducts, getItemById, getProjects } from "@/api/DataApi";
 
 export const DataContext = createContext();
 

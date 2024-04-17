@@ -17,4 +17,10 @@ export const contactData = [
     title: "Email",
     text: "tlparking@gmail.com",
   },
+  {
+    id: 4,
+    icon: <i className="bi bi-clock"></i>,
+    title: "Giờ làm việc",
+    text: "Thứ Hai-Thứ Sáu : 7h30 đến 17h30",
+  },
 ];

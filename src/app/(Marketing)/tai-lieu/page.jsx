@@ -1,3 +1,4 @@
+import MainBanner from "@/layout/MainBanner/MainBanner";
 import React from "react";
 
 export const metadata = {
@@ -7,9 +8,9 @@ export const metadata = {
 
 const DocumentsPage = () => {
   return (
-    <div className={`container my-5`}>
-      <h1 className={`text-center text-uppercase`}>Tài liệu</h1>
-    </div>
+    <>
+      <MainBanner title={metadata.title} />
+    </>
   );
 };
 

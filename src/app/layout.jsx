@@ -12,9 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AdminProvider>
-          <DataProvider>{children}</DataProvider>
-        </AdminProvider>
+        <DataProvider>{children}</DataProvider>
         <BootstrapClient />
       </body>
     </html>

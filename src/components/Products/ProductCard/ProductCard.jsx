@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import styles from "./products.module.css";
+import styles from "../products.module.css";
 
 const ProductCard = ({ product }) => (
-  <div className={`${styles.productCard} card`}>
+  <div className={`${styles.productCard} card mb-4`}>
     <Link href={`/san-pham/${product.id}`} passHref>
       <img
         className={`${styles.productImage} card-img-top`}
