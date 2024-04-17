@@ -1,7 +1,7 @@
 // ProductContext.js
 "use client";
 import React, { createContext, useState, cache } from "react";
-import { getProducts, getItemById, getProjects } from "@/api/DataApi";
+import { getProducts, getItemById, getProjects } from "@/api/DataAPI";
 
 export const DataContext = createContext();
 
